@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Chango&family=Chewy&family=DynaPuff:wght@400..700&family=Kaushan+Script&family=Kirang+Haerang&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Rubik+Wet+Paint&family=Sofadi+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+
+	<div class="w3-container solid rounded">
+		<h2> Wassup Sigma! Let's test your math skills. </h2>
+
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8CX4O_z5g0U-X7pg0BlVva4VRzWi8zUWcz-7xpIjbthegqts76rejlmyHKNpq4zPcm0E&usqp=CAU" height="50%" width="80%">
+
+		<p> Given: </p>
+
+		<form>
+			<label for="value-of-a">Enter a value for <b>a</b>:</label>
+			<input type="number" name="value-of-a" id="a-value">
+
+			<label for="value-of-b">Enter a value for <b>b</b>:</label>
+			<input type="number" name="value-of-b" id="b-value">
+		</form>
+
+		<button type="button" class="btn btn-danger" onClick="RoundItOff()">Round it off</button>
+		<button type="button" class="btn btn-danger" onClick="PowerUp()"> Power Up! </button>
+		<button type="button" class="btn btn-danger" onClick="GetTheSquareRoot()"> Get the square root</button>
+		<button type="button" class="btn btn-danger" onClick="RANDOM()"> Random </button>
+		<button type="button" class="btn btn-danger" onClick="window.location.reload()">REFRESH</button>
+	</div>
+
+	<script>
+		function RoundItOff() {
+			var a = document.getElementById('a-value').value;
+			var b = document.getElementById('b-value').value;
+			window.alert(Math.round(a));
+		}
+
+		function PowerUp() {
+			var a = document.getElementById('a-value').value;
+			var b = document.getElementById('b-value').value;
+			window.alert(Math.pow(a,b));
+		}
+
+		function GetTheSquareRoot() {
+			var a = document.getElementById('a-value').value;
+			var b = document.getElementById('b-value').value;
+			window.alert(Math.sqrt(a));
+		}
+
+		function RANDOM() {
+			var a = document.getElementById('a-value').value;
+			var b = document.getElementById('b-value').value;
+			window.alert(Math.random(a));
+		}
+	</script>
+
+</body>
+</html>

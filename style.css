@@ -1,0 +1,39 @@
+body {
+	background-image: url(https://images.unsplash.com/photo-1588097257570-59b6f7360bfb?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWVzdGhldGljJTIwcGlua3xlbnwwfHwwfHx8MA%3D%3D);
+	text-align: center;
+	font-family: "Sofadi One", serif;
+  	font-weight: 100;
+  	font-style: normal;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.w3-container {
+	margin-top: 1%;
+	margin-left: 25%;
+	margin-right: 25% ;
+	margin-bottom:1%;
+	background-color: #FFA38F;
+	border-style: solid;
+	border-color: #B82132;
+	padding: 1%;
+}
+
+button {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+form {
+	text-size: 20px;
+}
+
+img {
+	size: 10%;
+}
